@@ -1,5 +1,5 @@
 body {
-	min-width: 1300px;
+	max-width: 100%;
 	background-color: white;
 	color: #202124;
 }
@@ -46,5 +46,16 @@ body {
 }
 
 .result-type-bar {
-	margin: 20px 0 0 120px;
+/*	width: 100%; */
+	float: left;
+	padding-top: 10px;
+	padding-left: 160px;
+}
+
+.result-type {
+	float: left;
+	padding: 15px 20px 10px 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
 }
